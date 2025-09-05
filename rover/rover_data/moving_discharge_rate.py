@@ -80,9 +80,9 @@ avg_line = E0 + avg_slope * (t_line - t_line[0])
 
 plt.plot(t_line, avg_line, 'k--', linewidth=2, label='Average slope line')
 
-plt.xlabel('Time (seconds)')
-plt.ylabel('Energy (Joules)')
-plt.title('Energy vs Time with Dataset Slopes and Average Slope')
+plt.xlabel('Time: Seconds')
+plt.ylabel('Energy: J')
+plt.title('Energy vs Time')
 plt.legend()
 plt.grid(True)
 plt.tight_layout()

@@ -93,6 +93,7 @@ for p_vec in power:
     energy_curves.append(cumulative_energy)
 
 
+# Plotting energy curves 
 for i in range(len(energy_curves)):
     plt.plot(interpolated_time, energy_curves[i], label = f"Dataset {i+1}")
     plt.legend()
@@ -117,15 +118,16 @@ def average_wattage_all_datasets(power_array): # Averaging the wattage of all th
 
 average_watts = average_wattage_all_datasets(power) # Passing in power which is an array containing power vectros 
 
+print(average_watts)
 
 
 plt.grid(True)
 
-plt.xlabel("Time: Minutes")
+plt.xlabel("Time: Seconds")
 
 plt.ylabel("Energy: J")
 
-plt.title("Watts Vs Time: Idle Rover Discharge")
+plt.title("Energy Vs Time: V = 0")
 
 plt.show()
 
