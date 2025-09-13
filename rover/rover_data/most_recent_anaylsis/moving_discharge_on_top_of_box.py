@@ -10,7 +10,7 @@ voltages = [voltage_1]
 
 # Approximate Amps of the system (Constraints)
 
-idle_amps_drawn = 4.18 # Gathered from voltage data
+idle_amps_drawn = 4.18 # Approximation
 
 approximate_amps_from_motors = 7 # Estimate of the motor's current draw 
 
