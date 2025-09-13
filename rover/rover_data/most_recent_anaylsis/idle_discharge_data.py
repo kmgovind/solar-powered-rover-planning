@@ -5,7 +5,7 @@ from numpy import trapz
 from scipy.integrate import cumtrapz 
 
 
-# Time interval for all experiments 
+# Time interval  
 time = [0, 300, 600, 900, 1200, 1500, 1800, 2100, 2400] 
 
 # Dataset 1 
